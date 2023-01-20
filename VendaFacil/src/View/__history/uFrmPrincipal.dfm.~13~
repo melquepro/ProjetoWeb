@@ -1,0 +1,19 @@
+object FrmPrincipal: TFrmPrincipal
+  Width = 702
+  Height = 479
+  ElementClassName = 'main'
+  ElementFont = efCSS
+  FormContainer = 'main'
+  OnShow = WebFormShow
+  inline FrameMenu1: TFrameMenu
+    Left = 87
+    Top = 34
+    Width = 354
+    Height = 295
+    TabOrder = 0
+    ExplicitLeft = 87
+    ExplicitTop = 34
+    ExplicitWidth = 354
+    ExplicitHeight = 295
+  end
+end

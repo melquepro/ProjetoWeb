@@ -1,0 +1,8 @@
+object FrmPrincipal: TFrmPrincipal
+  Width = 702
+  Height = 479
+  ElementClassName = 'main'
+  ElementFont = efCSS
+  FormContainer = 'forms-nav'
+  OnShow = WebFormShow
+end

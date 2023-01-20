@@ -1,0 +1,43 @@
+object FrmPrincipal: TFrmPrincipal
+  Width = 702
+  Height = 479
+  ElementClassName = 'main'
+  ElementFont = efCSS
+  FormContainer = 'main'
+  OnShow = WebFormShow
+  inline FrameMenu1: TFrameMenu
+    Left = 15
+    Top = 8
+    Width = 154
+    Height = 433
+    TabOrder = 0
+    ExplicitLeft = 15
+    ExplicitTop = 8
+    ExplicitWidth = 154
+    ExplicitHeight = 433
+    inherited WebLabel1: TWebLabel
+      Left = 3
+      Top = 3
+      ExplicitLeft = 3
+      ExplicitTop = 3
+    end
+    inherited components: TWebLabel
+      Left = 0
+      Top = 63
+      ExplicitLeft = 0
+      ExplicitTop = 63
+    end
+    inherited WebLabel2: TWebLabel
+      Left = 3
+      Top = 24
+      ExplicitLeft = 3
+      ExplicitTop = 24
+    end
+    inherited Clientes: TWebLabel
+      Left = 91
+      Top = 45
+      ExplicitLeft = 91
+      ExplicitTop = 45
+    end
+  end
+end

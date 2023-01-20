@@ -1,0 +1,7 @@
+object Form1: TForm1
+  Width = 702
+  Height = 479
+  ElementFont = efCSS
+  FormContainer = 'forms-nav'
+  OnShow = WebFormShow
+end

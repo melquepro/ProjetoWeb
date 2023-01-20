@@ -1,0 +1,26 @@
+object FrmClieFor: TFrmClieFor
+  Width = 774
+  Height = 475
+  Caption = 'Lista de Cliente/Fornecedor'
+  CSSLibrary = cssBootstrap
+  ElementFont = efCSS
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -15
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  FormContainer = 'forms-nav'
+  ParentFont = False
+  object WebLabel1: TWebLabel
+    Left = 256
+    Top = 120
+    Width = 176
+    Height = 18
+    Caption = 'Lista de Cliente/Fornecedor'
+    ElementID = 'idTitle'
+    ElementFont = efCSS
+    HeightStyle = ssAuto
+    HeightPercent = 100.000000000000000000
+    WidthPercent = 100.000000000000000000
+  end
+end

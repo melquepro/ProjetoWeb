@@ -1,0 +1,5 @@
+object FrmPrincipal: TFrmPrincipal
+  Width = 739
+  Height = 539
+  ElementFont = efCSS
+end

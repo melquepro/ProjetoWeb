@@ -1,0 +1,8 @@
+object FrmPrincipal: TFrmPrincipal
+  Width = 739
+  Height = 539
+  Caption = 'VendaFacil'
+  CSSLibrary = cssBootstrap
+  ElementFont = efCSS
+  FormContainer = 'main'
+end

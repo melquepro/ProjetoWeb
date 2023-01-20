@@ -1,0 +1,35 @@
+unit uFrmPrincipal;
+
+interface
+
+uses
+  System.SysUtils, System.Classes, JS, Web, WEBLib.Graphics, WEBLib.Controls,
+  WEBLib.Forms, WEBLib.Dialogs, Vcl.Controls, Vcl.Forms, Frame.Menu;
+
+type
+  TFrmPrincipal = class(TWebForm)
+    procedure WebFormShow(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  FrmPrincipal: TFrmPrincipal;
+
+implementation
+
+{$R *.dfm}
+
+procedure TFrmPrincipal.WebFormShow(Sender: TObject);
+var
+  el: TJSElement;
+begin
+  // set sidebar element active style
+  el := document.getElementById('side1');
+  el['class'] := 'active';
+
+end;
+
+end.

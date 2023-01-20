@@ -1,0 +1,18 @@
+program VendaFacil;
+
+{$R *.dres}
+
+uses
+  Vcl.Forms,
+  WEBLib.Forms,
+  View.Principal in 'src\View\View.Principal.pas' {Form1: TWebForm} {*.html},
+  Frame.Menu in 'src\Frame\Frame.Menu.pas' {FrameMenu: TFrame};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(TForm1, Form1);
+  Application.Run;
+end.
